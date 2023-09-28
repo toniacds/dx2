@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
+
+svg {
+  background: #ebe7e0;
+}
+
+text {
+  fill: #35322a;
+  filter: url('#money');
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-size: 120px;
+  font-weight: 90;
+}
+
+html {
+  align-items: center;
+  background: #ebe7e0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 600px;
+}
+.button-66 {
+  background-color: brown;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: rgb(134, 34, 34) 0 -1px 3px 0 inset, rgb(100, 25, 25) 0 3px 6px 0;
+  box-sizing: border-box;
+  color: rgb(237, 178, 178);
+  cursor: pointer;
+  display: inherit;
+  font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  min-height: 56px;
+  min-width: 120px;
+  padding: 16px 20px;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  transition: all .2s cubic-bezier(.22, .61, .36, 1);
+}
+
+.button-66:hover {
+  background-color: rgb(192, 42, 42);
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-66 {
+    padding: 16px 44px;
+    min-width: 150px;
+  }
+}
+
+.buttons{
+    
+    display: flex;
+    
+    justify-content: center; 
+    align-items: center;    
+    align-content: center;
+
+    background-color: #ffffff;
+    height: 60px;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 50px;
+
+    margin-top: 50vh;}
